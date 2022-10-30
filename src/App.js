@@ -1,5 +1,6 @@
 
 import './App.css';
+import Filter from './Filter';
 import Header from './Header';
 import Sidebar from './Sidebar';
 
@@ -8,6 +9,7 @@ function App() {
     <div className="App">
      <Header/>
      <Sidebar/>
+     <Filter/>
     </div>
   );
 }
