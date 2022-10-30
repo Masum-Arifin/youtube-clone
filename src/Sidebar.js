@@ -128,6 +128,24 @@ const Sidebar = () => {
         </svg>
         <span className="sidebar-text">History</span>
       </div>
+
+      <div className="sidebar-items d-flex align-items-center active">
+        <svg
+          viewBox="0 0 24 25"
+          preserveAspectRatio="xMidYMid meet"
+          focusable="false"
+          class="style-scope yt-icon"
+          style={{ width: "20px", height: "20px", margin: "0px 20px" }}
+        >
+          <g class="style-scope yt-icon">
+            <path
+              d="M10,8l6,4l-6,4V8L10,8z M21,3v18H3V3H21z M20,4H4v16h16V4z"
+              class="style-scope yt-icon"
+            ></path>
+          </g>
+        </svg>
+        <span className="sidebar-text">Your Videos</span>
+      </div>
       
         </div>
     );
