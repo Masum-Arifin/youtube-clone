@@ -2,7 +2,7 @@ import React from 'react';
 import './Filter.css'
 const Filter = () => {
     return (
-        <div>
+        <div className="filter d-flex align-items-center">
             
         </div>
     );
